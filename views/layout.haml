@@ -16,9 +16,8 @@
           %h1 
             css 2 sass/scss
             %span converter
-        .top-info-section
-          .version-info
-            %a{:href => "http://sass-lang.com/"} Version
-            = Sass.version[:string]
+      .version-info
+          %a{:href => "http://sass-lang.com/"} Version
+          = Sass.version[:string]
          
       = yield
